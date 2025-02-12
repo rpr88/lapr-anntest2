@@ -1,21 +1,572 @@
 {
-  "users": [],
   "publish": {
-    "publishPagesApp": false,
-    "publishSHA": "",
-    "publishISODate": ""
+    "publish_pages_app": true,
+    "publish_sha": "",
+    "publish_iso_date": ""
   },
+  "users": [],
   "project": {
-    "title": "Zora Neale Hurston’s Works Progress Administration Recordings",
-    "description": "",
-    "language": "",
-    "slug": "",
-    "authors": "",
-    "mediaPlayer": "universal",
-    "autoPopulateHomePage": "true",
-    "additionalUsers": [],
-    "": {},
-    "createdAt": "",
-    "updatedAt": ""
+    "github_org": "rpr88",
+    "is_private": false,
+    "title": "LAPR Test 2",
+    "description": "LAPR Tests page 2",
+    "language": "en",
+    "slug": "lapr-anntest2",
+    "creator": "rpr88",
+    "authors": "R. Ramos",
+    "media_player": "avannotate",
+    "auto_populate_home_page": true,
+    "additional_users": [],
+    "tags": {
+      "tagGroups": [
+        {
+          "category": "Journalistic Approach",
+          "color": "#ADFFD9"
+        },
+        {
+          "category": "Speaker",
+          "color": "#ADFEFF"
+        },
+        {
+          "category": "Places",
+          "color": "#99E6FF"
+        },
+        {
+          "category": "People",
+          "color": "#88C9F2"
+        },
+        {
+          "category": "Organizations",
+          "color": "#99AFF2"
+        },
+        {
+          "category": "SH Armed Forces and Violence",
+          "color": "#B3B3E6"
+        },
+        {
+          "category": "SH Community identity issues",
+          "color": "#C195DB"
+        },
+        {
+          "category": "SH Economy",
+          "color": "#DA9ECF"
+        },
+        {
+          "category": "SH Environment",
+          "color": "#F2A7C3"
+        },
+        {
+          "category": "SH International dynamics",
+          "color": "#DC8F8D"
+        },
+        {
+          "category": "SH Labor",
+          "color": "#FF9A6F"
+        },
+        {
+          "category": "SH Media",
+          "color": "#FCB55F"
+        },
+        {
+          "category": "SH Politics",
+          "color": "#F7ED78"
+        },
+        {
+          "category": "Media Sources",
+          "color": "#CBE364"
+        },
+        {
+          "category": "Communities",
+          "color": "#A9D69A"
+        },
+        {
+          "category": "Dates"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Case Study",
+          "category": "Journalistic Approach"
+        },
+        {
+          "tag": "Speaker 1 (woman)",
+          "category": "Speaker"
+        },
+        {
+          "tag": "Speaker 2 (man)",
+          "category": "Speaker"
+        },
+        {
+          "tag": "Argentina",
+          "category": "Places"
+        },
+        {
+          "tag": "Belgium--Brussels",
+          "category": "Places"
+        },
+        {
+          "tag": "Bolivia",
+          "category": "Places"
+        },
+        {
+          "tag": "Brazil",
+          "category": "Places"
+        },
+        {
+          "tag": "Brazil--Rio de Janeiro",
+          "category": "Places"
+        },
+        {
+          "tag": "Brazil--São Paulo",
+          "category": "Places"
+        },
+        {
+          "tag": "Chile",
+          "category": "Places"
+        },
+        {
+          "tag": "Chile--Santiago",
+          "category": "Places"
+        },
+        {
+          "tag": "Colombia",
+          "category": "Places"
+        },
+        {
+          "tag": "Costa Rica",
+          "category": "Places"
+        },
+        {
+          "tag": "Dominican Republic",
+          "category": "Places"
+        },
+        {
+          "tag": "Ecuador",
+          "category": "Places"
+        },
+        {
+          "tag": "Guatemala",
+          "category": "Places"
+        },
+        {
+          "tag": "Haiti",
+          "category": "Places"
+        },
+        {
+          "tag": "Mexico",
+          "category": "Places"
+        },
+        {
+          "tag": "Mexico--Mexico City",
+          "category": "Places"
+        },
+        {
+          "tag": "Panama",
+          "category": "Places"
+        },
+        {
+          "tag": "Panama--Canal Zone",
+          "category": "Places"
+        },
+        {
+          "tag": "Panama--Panama City--Arosemena Palace",
+          "category": "Places"
+        },
+        {
+          "tag": "Paraguay",
+          "category": "Places"
+        },
+        {
+          "tag": "Peru",
+          "category": "Places"
+        },
+        {
+          "tag": "Portugal",
+          "category": "Places"
+        },
+        {
+          "tag": "United Kingdom",
+          "category": "Places"
+        },
+        {
+          "tag": "United States",
+          "category": "Places"
+        },
+        {
+          "tag": "United States--District of Columbia--Washington",
+          "category": "Places"
+        },
+        {
+          "tag": "United States--District of Columbia--Washington--Hotel Washington",
+          "category": "Places"
+        },
+        {
+          "tag": "Venezuela",
+          "category": "Places"
+        },
+        {
+          "tag": "Vietnam",
+          "category": "Places"
+        },
+        {
+          "tag": "Alessandri Rodríguez, Jorge, 1896-1986",
+          "category": "People"
+        },
+        {
+          "tag": "Allende Gossens, Salvador, 1908-1973",
+          "category": "People"
+        },
+        {
+          "tag": "Anderson, Jack, 1922-2005",
+          "category": "People"
+        },
+        {
+          "tag": "Barella, Bob",
+          "category": "People"
+        },
+        {
+          "tag": "Broe, William V.",
+          "category": "People"
+        },
+        {
+          "tag": "Church, Frank, 1924-1984",
+          "category": "People"
+        },
+        {
+          "tag": "Davis, Nathaniel, 1925-2011",
+          "category": "People"
+        },
+        {
+          "tag": "Frei Montalva, Eduardo, 1911-1982",
+          "category": "People"
+        },
+        {
+          "tag": "Geneen, Harold, 1910-1997",
+          "category": "People"
+        },
+        {
+          "tag": "Gerrity, Edward J.",
+          "category": "People"
+        },
+        {
+          "tag": "Guilfoyle, John W.",
+          "category": "People"
+        },
+        {
+          "tag": "Hendrix, Harold",
+          "category": "People"
+        },
+        {
+          "tag": "Hickenlooper, Bourke B. (Bourke Blakemore), 1896-1971",
+          "category": "People"
+        },
+        {
+          "tag": "Kissinger, Henry, 1923-2023",
+          "category": "People"
+        },
+        {
+          "tag": "Korry, Edward M. (Edward Malcolm), 1922-2003",
+          "category": "People"
+        },
+        {
+          "tag": "McCone, John A. (John Alex), 1902-1991",
+          "category": "People"
+        },
+        {
+          "tag": "Merriam, William",
+          "category": "People"
+        },
+        {
+          "tag": "Nixon, Richard M. (Richard Milhous), 1913-1994",
+          "category": "People"
+        },
+        {
+          "tag": "Sayre, Robert M.",
+          "category": "People"
+        },
+        {
+          "tag": "Tack, Juan Antonio",
+          "category": "People"
+        },
+        {
+          "tag": "Torrijos, Omar, 1929-1981",
+          "category": "People"
+        },
+        {
+          "tag": "Viaux Marambio, Roberto, 1917-",
+          "category": "People"
+        },
+        {
+          "tag": "Anaconda Copper Mining Company",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Bank of America",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Central Intelligence Agency (CIA)",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Chilean Communist Party",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Chilean Telephone Company (Chi Telco)",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Christian Democrat Party",
+          "category": "Organizations"
+        },
+        {
+          "tag": "General Motors Corporation",
+          "category": "Organizations"
+        },
+        {
+          "tag": "International Telephone and Telegraph Company (ITT)",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Kennecott Copper Corporation",
+          "category": "Organizations"
+        },
+        {
+          "tag": "National Conference of Brazilian Bishops",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Organization of American States (OAS)",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Overseas Private Investment Corporation (OPIC)",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Popular Unitary Action Movement (MAPU)",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Roman Catholic Church",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Socialist Party",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Unidad Popular (Popular Unity)",
+          "category": "Organizations"
+        },
+        {
+          "tag": "United Nations Security Council",
+          "category": "Organizations"
+        },
+        {
+          "tag": "Assassination attempts",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Caudillos",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Colonialism",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Coups d'état",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Discrimination",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Espionage",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Exploitation",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Extrajudicial executions",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Foreign interference in elections",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Human rights advocacy",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Military government",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Military training camps",
+          "category": "SH Armed Forces and Violence"
+        },
+        {
+          "tag": "Race relations",
+          "category": "SH Community identity issues"
+        },
+        {
+          "tag": "Banks and banking",
+          "category": "SH Economy"
+        },
+        {
+          "tag": "Droughts",
+          "category": "SH Environment"
+        },
+        {
+          "tag": "Land reform",
+          "category": "SH Environment"
+        },
+        {
+          "tag": "Mining corporations",
+          "category": "SH Environment"
+        },
+        {
+          "tag": "Eminent domain",
+          "category": "SH International dynamics"
+        },
+        {
+          "tag": "Foreign economic relations",
+          "category": "SH International dynamics"
+        },
+        {
+          "tag": "Sovereignty",
+          "category": "SH International dynamics"
+        },
+        {
+          "tag": "Treaties",
+          "category": "SH International dynamics"
+        },
+        {
+          "tag": "Employee rights",
+          "category": "SH Labor"
+        },
+        {
+          "tag": "Mass media",
+          "category": "SH Media"
+        },
+        {
+          "tag": "Coalitions",
+          "category": "SH Politics"
+        },
+        {
+          "tag": "Elections",
+          "category": "SH Politics"
+        },
+        {
+          "tag": "Legislative hearings",
+          "category": "SH Politics"
+        },
+        {
+          "tag": "Political parties",
+          "category": "SH Politics"
+        },
+        {
+          "tag": "Political persecution",
+          "category": "SH Politics"
+        },
+        {
+          "tag": "Political rights",
+          "category": "SH Politics"
+        },
+        {
+          "tag": "Ercia (Chile newspaper)",
+          "category": "Media Sources"
+        },
+        {
+          "tag": "Excélsior (Mexico newspaper)",
+          "category": "Media Sources"
+        },
+        {
+          "tag": "La Estrella de Panamá (Panama newspaper)",
+          "category": "Media Sources"
+        },
+        {
+          "tag": "Latin America (England newspaper)",
+          "category": "Media Sources"
+        },
+        {
+          "tag": "Latin America Press News Agency (Peru newspaper)",
+          "category": "Media Sources"
+        },
+        {
+          "tag": "Opinião (Brazil newspaper)",
+          "category": "Media Sources"
+        },
+        {
+          "tag": "Wall Street Journal (US periodical)",
+          "category": "Media Sources"
+        },
+        {
+          "tag": "Indigenous people",
+          "category": "Communities"
+        },
+        {
+          "tag": "Black people",
+          "category": "Communities"
+        },
+        {
+          "tag": "Women",
+          "category": "Communities"
+        },
+        {
+          "tag": "Working class (rural)",
+          "category": "Communities"
+        },
+        {
+          "tag": "Working class (urban)",
+          "category": "Communities"
+        },
+        {
+          "tag": "1961",
+          "category": "Dates"
+        },
+        {
+          "tag": "1903",
+          "category": "Dates"
+        },
+        {
+          "tag": "1964",
+          "category": "Dates"
+        },
+        {
+          "tag": "1973",
+          "category": "Dates"
+        },
+        {
+          "tag": "1962",
+          "category": "Dates"
+        },
+        {
+          "tag": "1965",
+          "category": "Dates"
+        },
+        {
+          "tag": "1969",
+          "category": "Dates"
+        },
+        {
+          "tag": "1971",
+          "category": "Dates"
+        },
+        {
+          "tag": "1970",
+          "category": "Dates"
+        }
+      ]
+    },
+    "created_at": "2025-02-12T01:40:21.069Z",
+    "updated_at": "2025-02-12T01:40:21.069Z"
   }
 }
